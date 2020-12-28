@@ -2,5 +2,10 @@
     "extends": "standard-with-typescript",
     "parserOptions": {
         "project": "./tsconfig.json"
+    },
+    "rules": {
+        "@typescript-esling/strict-boolean-expressions": "off",
+        "@typescript-esling/consistent-type-definitions": "off",
+        "@typescript-esling/comma-spacing": "off"
     }
 }
